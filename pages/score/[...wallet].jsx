@@ -115,19 +115,6 @@ export default function Scored({ blockchain, fullAddress }) {
                 />
               </div>
             </div>
-            <div className="poweredBy">
-              <p>
-                Powered by{" "}
-                <a
-                  href="https://celoscan.io"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  CeloScan
-                </a>{" "}
-                APIs
-              </p>
-            </div>
           </>
         )}
         {wallet && !success && (
